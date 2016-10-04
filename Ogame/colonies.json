@@ -1,0 +1,82 @@
+[
+    {
+        "lastTransport": 1472204774.467215, 
+        "cp": "33687782", 
+        "name": "Arrakis", 
+        "coordinates": [
+            4, 
+            2, 
+            9
+        ]
+    }, 
+    {
+        "lastTransport": 1472211303.405247, 
+        "cp": "33673724", 
+        "name": "Bela Tegeuse", 
+        "coordinates": [
+            4, 
+            2, 
+            13
+        ]
+    }, 
+    {
+        "lastTransport": 1472222700.308702, 
+        "cp": "33656662", 
+        "name": "Caladan I", 
+        "coordinates": [
+            4, 
+            32, 
+            9
+        ]
+    }, 
+    {
+        "lastTransport": 1472226437.731893, 
+        "cp": "33677267", 
+        "name": "Corrin", 
+        "coordinates": [
+            4, 
+            32, 
+            13
+        ]
+    }, 
+    {
+        "lastTransport": 1472176830.731068, 
+        "cp": "33657821", 
+        "name": "Ix I", 
+        "coordinates": [
+            4, 
+            95, 
+            9
+        ]
+    }, 
+    {
+        "lastTransport": 1472184979.744925, 
+        "cp": "33672293", 
+        "name": "Kaitain", 
+        "coordinates": [
+            4, 
+            95, 
+            13
+        ]
+    }, 
+    {
+        "lastTransport": 1472184985.635139, 
+        "cp": "33666003", 
+        "name": "Salusa Secundus", 
+        "coordinates": [
+            4, 
+            132, 
+            9
+        ]
+    }, 
+    {
+        "lastTransport": 1472191509.550816, 
+        "cp": "33732275", 
+        "name": "Tleilax", 
+        "coordinates": [
+            4, 
+            132, 
+            13
+        ]
+    }
+]

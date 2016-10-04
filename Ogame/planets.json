@@ -1,0 +1,482 @@
+[
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1472206408.628232, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            70, 
+            7
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1472216189.903267, 
+        "name": "Otherside", 
+        "coordinates": [
+            4, 
+            73, 
+            4
+        ]
+    }, 
+    {
+        "solarPlant": 20, 
+        "lastAttack": 1472206413.382717, 
+        "name": "Homeworld", 
+        "coordinates": [
+            4, 
+            31, 
+            10
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1472211292.856797, 
+        "name": "Homeworld", 
+        "coordinates": [
+            4, 
+            102, 
+            10
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1472211297.407599, 
+        "name": "PIANTA", 
+        "coordinates": [
+            4, 
+            105, 
+            10
+        ]
+    }, 
+    {
+        "solarPlant": 19, 
+        "lastAttack": 1472219444.221346, 
+        "name": "Get of my lawn", 
+        "coordinates": [
+            4, 
+            22, 
+            4
+        ]
+    }, 
+    {
+        "solarPlant": 21, 
+        "lastAttack": 1471708054.700833, 
+        "name": "Hyperion", 
+        "coordinates": [
+            4, 
+            6, 
+            4
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1472224777.983738, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            111, 
+            12
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471708995.043872, 
+        "name": "Gremory", 
+        "coordinates": [
+            4, 
+            119, 
+            11
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471709182.168157, 
+        "name": "Arwen", 
+        "coordinates": [
+            4, 
+            119, 
+            10
+        ]
+    }, 
+    {
+        "solarPlant": 16, 
+        "lastAttack": 1472224787.291918, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            106, 
+            7
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1472224801.905666, 
+        "name": "PIANTA", 
+        "coordinates": [
+            4, 
+            105, 
+            10
+        ]
+    }, 
+    {
+        "solarPlant": 20, 
+        "lastAttack": 1471709749.794749, 
+        "name": "Yaiwei Prime", 
+        "coordinates": [
+            4, 
+            133, 
+            6
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1471709936.993766, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            129, 
+            3
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1471709936.993766, 
+        "name": "Azeroth", 
+        "coordinates": [
+            4, 
+            129, 
+            9
+        ]
+    }, 
+    {
+        "solarPlant": 19, 
+        "lastAttack": 1471700440.222708, 
+        "name": "Yandere", 
+        "coordinates": [
+            4, 
+            185, 
+            4
+        ]
+    }, 
+    {
+        "solarPlant": 21, 
+        "lastAttack": 1471700808.604548, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            184, 
+            5
+        ]
+    }, 
+    {
+        "solarPlant": 21, 
+        "lastAttack": 1471701547.048649, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            199, 
+            5
+        ]
+    }, 
+    {
+        "solarPlant": 20, 
+        "lastAttack": 1471701921.833207, 
+        "name": "G4 - 196", 
+        "coordinates": [
+            4, 
+            178, 
+            14
+        ]
+    }, 
+    {
+        "solarPlant": 21, 
+        "lastAttack": 1471702290.394722, 
+        "name": "FAIAL", 
+        "coordinates": [
+            4, 
+            178, 
+            13
+        ]
+    }, 
+    {
+        "solarPlant": 21, 
+        "lastAttack": 1471702659.006023, 
+        "name": "SAO MIGUEL", 
+        "coordinates": [
+            4, 
+            178, 
+            5
+        ]
+    }, 
+    {
+        "solarPlant": 20, 
+        "lastAttack": 1471703027.574034, 
+        "name": "G4 - 163", 
+        "coordinates": [
+            4, 
+            178, 
+            4
+        ]
+    }, 
+    {
+        "solarPlant": 19, 
+        "lastAttack": 1471704610.893025, 
+        "name": "sell deut 163", 
+        "coordinates": [
+            4, 
+            177, 
+            4
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471705347.548441, 
+        "name": "4", 
+        "coordinates": [
+            4, 
+            204, 
+            12
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1471705715.891125, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            204, 
+            6
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1471706084.262899, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            203, 
+            7
+        ]
+    }, 
+    {
+        "solarPlant": 19, 
+        "lastAttack": 1471706452.629894, 
+        "name": "Kolejorz", 
+        "coordinates": [
+            4, 
+            166, 
+            6
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471706820.880183, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            160, 
+            9
+        ]
+    }, 
+    {
+        "solarPlant": 19, 
+        "lastAttack": 1471707189.243527, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            158, 
+            9
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471707557.636483, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            154, 
+            10
+        ]
+    }, 
+    {
+        "solarPlant": 22, 
+        "lastAttack": 1472226431.75993, 
+        "name": "116fieldsfor7thWTF", 
+        "coordinates": [
+            4, 
+            109, 
+            7
+        ]
+    }, 
+    {
+        "solarPlant": 22, 
+        "lastAttack": 1471714389.671159, 
+        "name": "Wilinx", 
+        "coordinates": [
+            4, 
+            170, 
+            6
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471714758.142391, 
+        "name": "gouffre de la mort", 
+        "coordinates": [
+            4, 
+            224, 
+            9
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471715126.49002, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            222, 
+            6
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471715494.925787, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            226, 
+            11
+        ]
+    }, 
+    {
+        "solarPlant": 19, 
+        "lastAttack": 1471715863.26665, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            254, 
+            8
+        ]
+    }, 
+    {
+        "solarPlant": 21, 
+        "lastAttack": 1471716231.75461, 
+        "name": "4", 
+        "coordinates": [
+            4, 
+            250, 
+            9
+        ]
+    }, 
+    {
+        "solarPlant": 21, 
+        "lastAttack": 1471716600.393256, 
+        "name": "G - 3", 
+        "coordinates": [
+            4, 
+            247, 
+            6
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471716968.630767, 
+        "name": "Colony", 
+        "coordinates": [
+            4, 
+            265, 
+            11
+        ]
+    }, 
+    {
+        "solarPlant": 21, 
+        "lastAttack": 1471717705.380131, 
+        "name": "G4", 
+        "coordinates": [
+            4, 
+            267, 
+            7
+        ]
+    }, 
+    {
+        "solarPlant": 22, 
+        "lastAttack": 1471718073.687006, 
+        "name": "270fields is better", 
+        "coordinates": [
+            4, 
+            281, 
+            6
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471718444.768266, 
+        "name": "Helicon", 
+        "coordinates": [
+            4, 
+            301, 
+            10
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1471718813.062747, 
+        "name": "ZEUS", 
+        "coordinates": [
+            4, 
+            305, 
+            12
+        ]
+    }, 
+    {
+        "solarPlant": 20, 
+        "lastAttack": 1471719181.492138, 
+        "name": "Bakura", 
+        "coordinates": [
+            4, 
+            305, 
+            4
+        ]
+    }, 
+    {
+        "solarPlant": 20, 
+        "lastAttack": 1471720248.775272, 
+        "name": "2", 
+        "coordinates": [
+            4, 
+            313, 
+            7
+        ]
+    }, 
+    {
+        "solarPlant": 18, 
+        "lastAttack": 1471720623.954823, 
+        "name": "AHA DA 183", 
+        "coordinates": [
+            4, 
+            332, 
+            8
+        ]
+    }, 
+    {
+        "solarPlant": 20, 
+        "lastAttack": 1471720992.564325, 
+        "name": "ANAGEZEGEN", 
+        "coordinates": [
+            4, 
+            326, 
+            10
+        ]
+    }, 
+    {
+        "solarPlant": 17, 
+        "lastAttack": 1471721360.900438, 
+        "name": "APOCALIPSE", 
+        "coordinates": [
+            4, 
+            193, 
+            10
+        ]
+    }
+]

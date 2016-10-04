@@ -1,0 +1,64 @@
+<md-content layout-xs="column" layout="row" layout-align="center center">
+    <div flex flex-gt-xs="80">
+		<md-card>
+			<md-card-title>
+				<md-card-title-text>
+					<span class="md-headline">Galaxy map</span>
+					<span class="md-subhead">Updated: today</span>
+				</md-card-title-text>
+			</md-card-title>
+			<md-card-content>
+				<div layout="column" layout-align="center center">
+					<div layout="row" layout-align="center start">
+						<md-button class="md-fab md-mini md-primary" ng-click="galaxy = galaxy - 1; getGalaxy()"><</md-button>
+						<!--<p>galaxy:</p>-->
+						<form ng-submit="getGalaxy()">
+							<md-input-container class="md-icon-float md-block">
+								<!-- Use floating label instead of placeholder -->
+								<label>Galaxy</label>
+								<!--<md-icon md-svg-src="img/icons/ic_person_24px.svg" class="name"></md-icon>-->
+								<input ng-model="galaxy" type="number">
+							</md-input-container>
+						</form>
+						<!--<p>system:</p>-->
+						<md-button class="md-fab md-mini md-primary" ng-click="galaxy = galaxy + 1; getGalaxy()">></md-button>
+						<md-button class="md-fab md-mini md-primary" ng-click="system = system - 1; getGalaxy()"><</md-button>
+						<form ng-submit="getGalaxy()">
+							<md-input-container class="md-icon-float md-block">
+								<!-- Use floating label instead of placeholder -->
+								<label>System</label>
+								<!--<md-icon md-svg-src="img/icons/ic_person_24px.svg" class="name"></md-icon>-->
+								<input ng-model="system" type="number">
+							</md-input-container>
+						</form>
+						<md-button class="md-fab md-mini md-primary" ng-click="system = system + 1; getGalaxy()">></md-button>
+					</div>
+					<md-button class="md-raised md-primary" ng-click="getGalaxy()">Show</md-button>
+				</div>
+				<md-table-container style="overflow: auto">
+					<table md-table style="table-layout: fixed">
+						<thead md-head>
+							<tr md-row>
+								<th md-column>Position</th>
+								<th md-column>Planet</th>
+								<th md-column>Moon</th>
+								<th md-column>Player</th>
+								<th md-column>Alliance</th>
+							</tr>
+						</thead>
+						<tbody md-body>
+							<tr md-row ng-repeat="planet in planets" class="animate">
+								<td md-cell>{{ planet.position }}</td>
+								<td md-cell>{{ planet.name }}</td>
+								<td md-cell>{{ planet.moon }}</td>
+								<td md-cell>{{ planet.player }}</td>
+								<td md-cell>{{ planet.alliance }}</td>
+							</tr>
+						</tbody>
+					</table>
+					</br>
+				</md-table-container>
+			</md-card-content>
+		</md-card>
+    </div>
+</div>

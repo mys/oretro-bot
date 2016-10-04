@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ORETRO</title>
+	<!-- Angular Material style sheet -->
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+	<link rel="stylesheet" href="/bower_components/angular-material-data-table/dist/md-data-table.min.css" />
+	<link rel="stylesheet" href="css/site.css">
+	<base href="/">
+</head>
+
+<body ng-app="malinkaApp" ng-controller="malinkaController" ng-cloak>
+
+	<md-toolbar md-whiteframe="2" layout="row" layout-align="space-between center">
+		<!--The left side-->
+		<span><h2 class="md-toolbar-tools">ORETRO - Uni 1 Ogame-Retro statistics page</h2></span>
+		<!--The right side-->
+		<span>
+			<md-button href="/players_pts">Players</md-button>
+			<md-button href="/ally_pts">Alliances</md-button>
+			<md-button href="/map">Map</md-button>
+			<md-button href="/api">API</md-button>
+		</span>
+	</md-toolbar>
+
+	<md-content>
+	
+		<!--<div id="ads1" ng-hide="hideAds">
+			<ins async class="adsbygoogle"
+				style="display:inline-block;width:320px;height:100px"
+				data-ad-client="ca-pub-1180176246249766"
+				data-ad-slot="8563112350"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>-->
+
+		<style>
+			.banner { width: 300px; height: 250px; }
+			@media(min-width: 360px) { .banner { width: 336px; height: 280px; } }
+			@media(min-width: 500px) { .banner { width: 468px; height: 60px; } }
+			@media(min-width: 800px) { .banner { width: 728px; height: 90px; } }
+		</style>
+		
+		<div ng-view></div>
+
+		<!-- ORETRO -->
+		<div id="ads1" style="margin: 8px 8px 8px 8px;" layout="row" layout-align="center center" ng-hide="hideAds">
+			<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+			<!-- ORETRO -->
+			<!-- <ins class="adsbygoogle banner"
+				style="display:block"
+				data-ad-client="ca-pub-1180176246249766"
+				data-ad-slot="1751085550"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script> -->
+		
+		<iframe data-aa='235592' src='https://ad.a-ads.com/235592?size=728x90' scrolling='no' style='width:728px; height:90px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+		</div>
+
+
+	</md-content>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	<!-- Angular core components -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<script src="/bower_components/angular-route/angular-route.js"></script>
+
+	<!-- Angular Material Dependencies -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+
+	<!-- Angular Material Data Table -->
+	<script src="/bower_components/angular-material-data-table/dist/md-data-table.min.js"></script>
+
+	<script src="http://code.highcharts.com/stock/highstock.src.js"></script>
+	<script src="/node_modules/highcharts-ng/dist/highcharts-ng.min.js"></script>
+
+	<!-- Angular Material Library -->
+	<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+	<!-- Initialize Angular App -->
+	<script src="js/app.js"></script>
+
+	<!--  Angular Controllers -->
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<md-content layout-xs="column" layout="row">
+    <div flex-xs flex-gt-xs="40">
+		<md-card>
+			<md-card-title>
+				<md-card-title-text>
+					<span class="md-headline">Players points</span>
+					<span class="md-subhead">Updated: today</span>
+				</md-card-title-text>
+			</md-card-title>
+			<md-card-content>
+				<div layout="row" layout-align="center center">
+					<p>show by:</p>
+					<md-input-container>
+						<md-select ng-model="type" ng-change="reload()">
+							<md-option value="pts">Points</md-option>
+							<md-option value="flt">Fleet</md-option>
+							<md-option value="res">Research</md-option>
+						</md-select>
+					</md-input-container>
+					<p>in ranks:</p>
+					<md-input-container>
+						<md-select ng-model="rank">
+							<md-option ng-repeat="rank in ranks" value="{{rank}}">{{rank + 1}} - {{rank + 100}}</md-option>
+						</md-select>
+					</md-input-container>
+				</div>
+				<md-table-container style="overflow: auto">
+					<table md-table style="table-layout: fixed">
+						<thead md-head>
+							<tr md-row>
+								<th md-column>Rank</th>
+								<th md-column>Player</th>
+								<th md-column>Alliance</th>
+								<th md-column>Points</th>
+							</tr>
+						</thead>
+						<tbody md-body>
+							<tr md-row ng-repeat="row in stats" ng-if="$index >= rank && $index - 100 < rank" class="animate">
+								<td md-cell>{{ row.rank }}</td>
+								<td md-cell><a href="" ng-click="getPlayer(row.player)">{{ row.player }}</a></td>
+								<td md-cell>{{ row.alliance }}</td>
+								<td md-cell>{{ row.points }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</md-table-container>
+			</md-card-content>
+		</md-card>
+    </div>
+
+	<div flex-xs flex-gt-xs="60">
+		<md-card>
+			<md-card-title>
+				<md-card-title-text>
+					<span class="md-headline">Selected player</span>
+					<span class="md-subhead">
+						<!--{{selectedPlayer}}-->
+						<form ng-submit="getPlayer(selectedPlayer)">
+							<md-input-container class="md-icon-float md-block">
+								<!-- Use floating label instead of placeholder -->
+								<label>Player login</label>
+								<!--<md-icon md-svg-src="img/icons/ic_person_24px.svg" class="name"></md-icon>-->
+								<input ng-model="selectedPlayer" type="text">
+							</md-input-container>
+						</form>
+					</span>
+				</md-card-title-text>
+			</md-card-title>
+			<md-card-content ng-show="selectedPlayer">
+				<table md-table style="table-layout: fixed">
+					<thead md-head>
+						<tr md-row>
+							<th md-column>Position</th>
+							<th md-column>Planet</th>
+							<th md-column>Player</th>
+							<th md-column>Alliance</th>
+						</tr>
+					</thead>
+					<tbody md-body>
+						<tr md-row ng-repeat="planet in planets" class="animate">
+							<td md-cell>[ {{ planet.galaxy }}:{{ planet.system }}:{{ planet.position }} ]</td>
+							<td md-cell>{{ planet.name }}</td>
+							<td md-cell>{{ planet.player }}</td>
+							<td md-cell>{{ planet.alliance }}</td>
+						</tr>
+					</tbody>
+				</table>
+				</br>
+			</md-card-content>
+		</md-card>
+		
+		<md-card ng-show="selectedPlayer">
+			<md-card-title>
+				<md-card-title-text>
+					<span class="md-headline">Charts</span>
+					</span>
+				</md-card-title-text>
+			</md-card-title>
+			<md-card-content ng-show="selectedPlayer">
+				<highchart config="chartConfigPoints"></highchart>
+				<md-divider></md-divider>
+				<highchart config="chartConfigFleet"></highchart>
+				<md-divider></md-divider>
+				<highchart config="chartConfigResearch"></highchart>
+			</md-card-content>
+		</md-card>
+	</div>
+</div>

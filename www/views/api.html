@@ -1,0 +1,84 @@
+<md-content layout-xs="column" layout="row" layout-align="center center">
+    <div flex flex-gt-xs="80">
+		<md-card>
+			<md-card-title>
+				<md-card-title-text>
+					<span class="md-headline">API</span>
+					<!--<span class="md-subhead">Updated: 2016-08-27, 08:05</span>-->
+				</md-card-title-text>
+			</md-card-title>
+			<md-card-content>
+
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/players_pts</h2>
+					<p>Return most recent players points statistics</p>
+					<code style="display: block; padding: 8px;">return all { "rank", "player", "alliance", "points" }</code>
+				</div>
+				<md-divider></md-divider>
+				
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/players_flt</h2>
+					<p>Return most recent players fleet statistics</p>
+					<code style="display: block; padding: 8px;">return all { "rank", "player", "alliance", "points" }</code>
+				</div>
+				<md-divider></md-divider>
+				
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/players_res</h2>
+					<p>Return most recent players research statistics</p>
+					<code style="display: block; padding: 8px;">return all { "rank", "player", "alliance", "points" }</code>
+				</div>
+				<md-divider></md-divider>
+				
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/player_pts/:player</h2>
+					<p>Return last 30 days player points statistics</p>
+					<code style="display: block; padding: 8px;">return last 30 days { "date", "rank", "player", "alliance", "points" }</code>
+				</div>
+				<md-divider></md-divider>
+				
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/player_flt/:player</h2>
+					<p>Return last 30 days player fleet statistics</p>
+					<code style="display: block; padding: 8px;">return last 30 days { "date", "rank", "player", "alliance", "points" }</code>
+				</div>
+				<md-divider></md-divider>
+				
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/player_res/:player</h2>
+					<p>Return last 30 days player research statistics</p>
+					<code style="display: block; padding: 8px;">return last 30 days { "date", "rank", "player", "alliance", "points" }</code>
+				</div>
+				<md-divider></md-divider>
+				
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/player_gal/:player</h2>
+					<p>Return most recent player planets coordinates</p>
+					<code style="display: block; padding: 8px;">return { "galaxy", "system", "position", "name", "player", "alliance" }</code>
+				</div>
+				<md-divider></md-divider>
+				
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/galaxy?galaxy={1-9}&system={1-499}</h2>
+					<p>Return most recent galaxy view</p>
+					<code style="display: block; padding: 8px;">return all { "galaxy", "system", "position", "name", "moon", "player", "alliance" }</code>
+				</div>
+				<md-divider></md-divider>
+				
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/top</h2>
+					<p>Return last 30 days top player points statistics</p>
+					<code style="display: block; padding: 8px;">return top last 30 days { "date", "points" }</code>
+				</div>
+				<md-divider></md-divider>
+				
+				<div class="md-padding" layout="column">
+					<h2 class="md-title">GET /api/ally_pts/:alliance</h2>
+					<p>Return most recent alliance players points statistics</p>
+					<code style="display: block; padding: 8px;">return alliance { "date", "rank", "player", "alliance", "points" }</code>
+				</div>
+
+			</md-card-content>
+		</md-card> 
+    </div>
+</div>
